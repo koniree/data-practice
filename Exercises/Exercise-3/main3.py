@@ -3,6 +3,10 @@ import gzip
 import io
 import settings
 
+"""
+not working
+"""
+
 # Initialize AWS S3 session with credentials from settings
 session = boto3.Session(
     aws_access_key_id=settings.AWS_ACCESS_KEY_ID,
